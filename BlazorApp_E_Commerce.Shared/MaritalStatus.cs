@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BlazorApp_E_Commerce.Shared
 {
-    internal class MaritalStatus
+    public enum MaritalStatus
     {
+        Married,
+        Single,
+        Other
     }
 }

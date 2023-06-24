@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BlazorApp_E_Commerce.Shared
 {
-    internal class Country
+    public class Country
     {
+        public int CountryId { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BlazorApp_E_Commerce.Shared
 {
-    internal class Gender
+    public enum Gender
     {
+        Male,
+        Female,
+        Other
     }
 }

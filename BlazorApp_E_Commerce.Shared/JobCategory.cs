@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BlazorApp_E_Commerce.Shared
 {
-    internal class JobCategory
+    public class JobCategory
     {
+        public int JobCategoryId { get; set; }
+        public string JobCategoryName { get; set; }
     }
 }
